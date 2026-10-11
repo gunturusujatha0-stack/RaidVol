@@ -1,0 +1,13 @@
+cat > .gitignore <<'EOF'
+# Compiled binaries
+raidvol
+test_raid
+test_concurrency
+*.o
+
+# Runtime metadata
+metadata.txt
+
+# Generated virtual disks
+disks/*.img
+EOF
